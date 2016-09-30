@@ -5,9 +5,9 @@ data science class sept - nov 2016
 
 *italics is cool*
 
-** so bold it is soo so bold**
+**so bold it is soo so bold**
 
-*** italics and bold what is happening in life ***
+***italics and bold what is happening in life***
 
 [link to cnn](http://cnn.com)
 
