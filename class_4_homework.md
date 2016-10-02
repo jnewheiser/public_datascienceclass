@@ -15,52 +15,52 @@
 
 2. How many orders do there appear to be?
 
-```
-tail chipotle.tsv
-```
+  ```
+  tail chipotle.tsv
+  ```
 
-1,834
+  1,834
 
 3. How many lines are in this file?
 
-```
-wc -l chipotle.tsv
-```
+  ```
+  wc -l chipotle.tsv
+  ```
 
-4,623
+  4,623
 
 
 4. Which burrito is more popular, steak or chicken?
 
-```
-grep 'Chicken Burrito' chipotle.tsv > chipotlechickenburrito.tsv
-wc -l chipotlechickenburrito.tsv
-```
-553 Chicken Burritos ordered
+  ```
+  grep 'Chicken Burrito' chipotle.tsv > chipotlechickenburrito.tsv
+  wc -l chipotlechickenburrito.tsv
+  ```
+  553 Chicken Burritos ordered
 
-```
-grep 'Steak Burrito' chipotle.tsv > chipotlesteakburrito.tsv
-wc -l chipotlestealburrito.tsv
-```
-360 Steak Burritos ordered
+  ```
+  grep 'Steak Burrito' chipotle.tsv > chipotlesteakburrito.tsv
+  wc -l chipotlestealburrito.tsv
+  ```
+  360 Steak Burritos ordered
 
-Chicken is more popular
+  Chicken is more popular
 
 5. Do chicken burritos more often have black beans or pinto beans?
 
-```
-grep 'Black Beans' chipotlechickenburrito.tsv > chipotleblackbean.tsv
-wc -l chipotleblackbean.tsv
-```
-282 Chicken Burritos with Black Beans
+  ```
+  grep 'Black Beans' chipotlechickenburrito.tsv > chipotleblackbean.tsv
+  wc -l chipotleblackbean.tsv
+  ```
+  282 Chicken Burritos with Black Beans
 
-```
-grep 'Pinto Beans' chipotlechickenburrito.tsv > chipotlepintobean.tsv
-wc -l chipotlepintobean.tsv
-```
-105 Chicken Burritos with Pinto Beans
+  ```
+  grep 'Pinto Beans' chipotlechickenburrito.tsv > chipotlepintobean.tsv
+  wc -l chipotlepintobean.tsv
+  ```
+  105 Chicken Burritos with Pinto Beans
 
-Black beans are more popular in chicken burritos
+  Black beans are more popular in chicken burritos
 
 6. Make a list of all of the CSV or TSV files in the our class repo. repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
 
