@@ -2,17 +2,18 @@
 
 1. Look at the head and the tail of chipotle.tsv in the data subdirectory of this repo. Think for a minute about how the data is structured. What do you think each column means? What do you think each row means? Tell me! (If you're unsure, look at more of the file contents.)
 
-```
-head chipotle.tsv
-tail chipotle.tsv
-```
+  ```
+  head chipotle.tsv
+  tail chipotle.tsv
+  ```
 
-* order_id - every order has an individual order id. multiple items can be in each order.
-* quantity - quantity of each item within each order.
-* item_name - name of the item
-* choice_description - item details
-* item_price - price per item
+  * order_id - every order has an individual order id. multiple items can be in each order.
+  * quantity - quantity of each item within each order.
+  * item_name - name of the item
+  * choice_description - item details
+  * item_price - price per item
 
+- - - -
 
 2. How many orders do there appear to be?
 
