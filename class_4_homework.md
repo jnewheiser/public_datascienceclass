@@ -13,8 +13,6 @@
   * choice_description - item details
   * item_price - price per item
 
-- - - -
-
 2. How many orders do there appear to be?
 
 ```
