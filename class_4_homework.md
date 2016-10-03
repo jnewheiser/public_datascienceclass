@@ -64,6 +64,17 @@
 
 6. Make a list of all of the CSV or TSV files in the our class repo. repo (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters can help you with this task.
 
-
+  ```
+  find . -name *.csv >output.csv
+  ```
+  
 7. Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of our class repo.
+
+  ```
+  grep -r -i 'dictionary' . > dictionary.csv
+  wc -l dictionary.csv
+  ```
+
+Dictionary is mentioned 77 times.
+
 8. Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
