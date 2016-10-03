@@ -75,6 +75,6 @@
   wc -l dictionary.csv
   ```
 
-Dictionary is mentioned 77 times.
+  Dictionary is mentioned 77 times.
 
 8. Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
